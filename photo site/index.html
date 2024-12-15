@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотоальбом на Bootstrap</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .card img {
+            object-fit: cover;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Навигационная панель -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Фотоальбом</a>
+</nav>
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Фотографии</h1>
+    <div class="row">
+        <!-- Карточка 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="java.jpeg" class="card-img-top" alt="Фото 1">
+                <div class="card-body">
+                    <h5 class="card-title">Java</h5>
+                    <p class="card-text">
+Java — строго типизированный объектно-ориентированный язык программирования общего назначения, разработанный компанией Sun Microsystems. Разработка ведётся сообществом, организованным через Java Community Process; язык и основные реализующие его технологии распространяются по лицензии GPL. Википедия
+Разработчик: Sun Microsystems и Oracle
+Класс языка: язык JVM, мультипарадигменный: объектно-ориентированный, аспектно-ориентированный, обобщённый, рефлективный
+Лицензия: GNU GPL
+Появился в: 1995
+Расширение файлов: java,.class,.jar,.jad,.jmod,.war,.ear
+</p>
+                    <a href="https://www.java.com" class="btn btn-primary">Подробнее</a>
+                </div>
+            </div>
+        </div>
+        <!-- Карточка 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="python.jpg" class="card-img-top" alt="Фото 2">
+                <div class="card-body">
+                    <h5 class="card-title">Python</h5>
+                    <p class="card-text">
+Python — мультипарадигмальный высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью, ориентированный на повышение производительности разработчика, читаемости кода и его качества, а также на обеспечение переносимости написанных на нём программ. Википедия
+Разработчик: Python Software Foundation и Гвидо ван Россум
+Головная компания: Python Software Foundation
+Испытал влияние: Алгол 68, ABC, Модула-3, Си, C++, Perl, Java, Лисп, Haskell, APL, Клу, Dylan, Icon и SML
+Класс языка: объектно-ориентированный
+ОС: кроссплатформенность
+Появился в: 20 февраля 1991
+</p>
+                    <a href="https://www.python.org" class="btn btn-primary">Подробнее</a>
+                </div>
+            </div>
+        </div>
+        <!-- Карточка 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="php.jpg" class="card-img-top" alt="Фото 3">
+                <div class="card-body">
+                    <h5 class="card-title">PHP</h5>
+                    <p class="card-text">
+PHP — C-подобный скриптовый язык общего назначения, интенсивно применяемый для разработки веб-приложений. В настоящее время поддерживается подавляющим большинством хостинг-провайдеров и является одним из лидеров среди языков, применяющихся для создания динамических веб-сайтов. Википедия
+Разработчик: Расмус Лердорф, Энди Гутманс, PHP Group, Zend Technologies и Зеев Сураски
+Испытал влияние: C++, Perl, Си, Java, Tcl, HTML и JavaScript
+Класс языка: объектно-ориентированный, мультипарадигмальный и интерпретируемый
+Лицензия: PHP License
+ОС: Unix-подобная операционная система и Windows
+Появился в: 8 июня 1995
+</p>
+                    <a href="https://www.php.net" class="btn btn-primary">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
